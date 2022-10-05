@@ -1,0 +1,24 @@
+{
+  "name": "fup-is-number",
+  "version": "1.0.0",
+  "description": "function",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "uglifyjs ./source.js -cmo ./index.js",
+    "upload": "npm run build & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasx10/fup-is-number.git"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "Kleschev Yevhenii <dasx10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasx10/fup-is-number/issues"
+  },
+  "homepage": "https://github.com/dasx10/fup-is-number#readme"
+}
